@@ -4,4 +4,8 @@ Kelas       : Informatika A
 Mata Kuliah : Prak. Analisis & Desain Ber. Objek
 KAKAS       : Draw.io
 Status Latihan Pertemuan 1 Pengenalan Lingkungan Praktikum dan Kakas Pemodelan UML 
+<<<<<<< HEAD
 Status Latihan Pertemuan 2 Unified Modeling Language (UML)
+=======
+Status Latihan Pertemuan 2 Unified Modeling Language (UML)
+>>>>>>> fa4cb8d5cc98acc14d51dd4c33652803a87ff774
