@@ -1,8 +1,9 @@
+<!-- Deskripsi Skenario -->
 Sistem Informasi Akademik
 Skenario tugas:
 Mahasiswa mengajukan KRS dengan memilih mata kuliah. Setiap pengajuan menjalankan validasi KRS yang memeriksa kelengkapan prasyarat mata kuliah, dan benturan jadwal. Jika validasi berhasil, sistem menyimpan pengajuan berstatus menunggu persetujuan dosen wali. Pada konfirmasi penyimpanan, mahasiswa dapat memilih mengunduh bukti pengajuan. Dosen wali menyetujui atau menolak KRS dan memberikan catatan keputusan.
 
-
+<!-- Kebutuhan -->
 Ketentuan ini fiktif untuk praktikum. Batas SKS, aturan pembayaran, dan
 kewenangan institusi nyata tidak boleh ditambahkan tanpa sumber.
 ID       |      Kebutuhan tugas
@@ -15,6 +16,7 @@ SIA-R05  | Mahasiswa dapat mengunduh bukti jika memilihnya pada konfirmasi penga
 SIA-R06  | Dosen wali dapat memproses persetujuan atau penolakan KRS
 
 
+<!-- Batas dan asumsi -->
 Batas dan asumsi:
 • Pengguna telah terautentikasi.
 • Data mata kuliah, prasyarat, dan jadwal tersedia.
@@ -23,7 +25,8 @@ Batas dan asumsi:
 • KRS tersimpan belum berarti disetujui.
 • Pembayaran, pengisian nilai, dan implementasi basis data berada di luar tugas.
 
-entifikasi Aktor
+
+<!-- Identifikasi Aktor -->
 Nama Aktor                                   Deskripsi Peran
 Mahasiswa                           Melihat jadwal kuliah, mengajukan KRS, dan mengunduh bukti pengajuan jika diperlukan.
 Admin Akademik                      Mengelola jadwal kuliah.
@@ -31,7 +34,7 @@ Admin Akademik                      Mengelola jadwal kuliah.
 Dosen Wali                          Memproses pengajuan KRS dengan memberikan persetujuan atau penolakan.
 
 
-Identifikasi Aktor dan Use Case SIA
+<!-- Identifikasi Aktor dan Use Case SIA -->
 ID         Nama Use Case                  Peran dalam Model
 SIA-R01    Melihat Jadwal Kuliah          Fungsi utama mahasiswa
 SIA-R02    Mengelola Jadwal Kuliah        Fungsi utama admin akademik
@@ -41,15 +44,12 @@ SIA-R05    Mengunduh Bukti Pengajuan      Tambahan bersyarat (extend) pada SIA-R
 SIA-R06    Menyetujui / Menolak KRS       Fungsi utama dosen wali
 
 
-Identifikasi Perilaku
-Sumber          Hubungan       Tujuan
-Mahasiswa       Asosiasi       SIA-R01
-Mahasiswa       Asosiasi       SIA-R03
-Mahasiswa       Asosiasi       SIA-R05
-Admin Akademik  Asosiasi       SIA-R0 
-Dosen Wali      Asosiasi       SIA-R06
-SIA-R03         include        SIA-R04
-SIA-R05         extend         SIA-R03
-
-
-
+<!-- Relasi Include dan extend -->
+Tetapkan relasi
+Tuliskan dua keputusan pemodelan:
+SIA-R03 «include» SIA-R04
+Alasan: pemeriksaan menjadi bagian validasi pengajuan KRS.
+SIA-R05  extend   SIA-R03
+Extension point: Bukti pengajuan tersedia.
+Kondisi: [mahasiswa memilih cetak].
+Alasan: pengajuan tetap berhasil tanpa pencetakan.
