@@ -1,0 +1,5 @@
+No. | Temuan                                   | Perbaikan yang Diperlukan | Alasan |
+---------------------------------------------------------------------------------------------------------------------
+ 1.  | Aktor Civitas Akademika belum dimodelkan | Menambahkan aktor Civitas Akademika sebagai aktor umum | Karena pada skenario Mahasiswa dan Dosen memiliki perilaku yang sama, yaitu melihat Kalender Akademik, sehingga dimodelkan menggunakan generalization.|
+ 2. | Pengelolaan Data Mahasiswasebagai generalization | Menambahkan use case Tambah Data Mahasiswa, Ubah Data Mahasiswa, dan Hapus Data Mahasiswa sebagai spesialisasi dari Mengelola Data Mahasiswa | Karena SIA-R11 menyatakan bahwa pengelolaan data mahasiswa terdiri dari tiga bentuk khusus. |
+ 3. | Collaboration sebagai use case tambahan | Menambahkan Menyimpan Nilai, Mengambil Nilai, dan Nilai Tersimpan
