@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="zHFBT5h9HWDmVVDe_Xkd" name="5.1">
-        <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1489" dy="1037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -332,7 +332,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="ng3gKa8qEUb4D1bmmM10" name="5.5">
-        <mxGraphModel dx="972" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="980" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -398,6 +398,12 @@
                 </mxCell>
                 <mxCell id="a20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;" value="Use case selesai jika bukti pengajuan tercetak; jika mahasiswa tidak memilih cetak, pengajuan tetap selesai tanpa bukti cetak." vertex="1">
                     <mxGeometry height="80" width="365" x="425" y="575" as="geometry"/>
+                </mxCell>
+                <mxCell id="ipkNS_W9D8bcb18n4u53-1" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="399" y="390" as="sourcePoint"/>
+                        <mxPoint x="449" y="340" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
