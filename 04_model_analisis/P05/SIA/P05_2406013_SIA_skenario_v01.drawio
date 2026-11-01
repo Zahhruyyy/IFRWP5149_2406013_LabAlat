@@ -426,12 +426,12 @@
         </mxGraphModel>
     </diagram>
     <diagram id="dZ82FOQXCm3Or9dr5fac" name="Page-7">
-        <mxGraphModel dx="1038" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1237" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;" value="Skenario Use Case LAB-UC13 Hapus Data Mahasiswa" vertex="1">
-                    <mxGeometry height="35" width="750" x="40" y="5" as="geometry"/>
+                    <mxGeometry height="35" width="750" x="40" y="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="a1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=8;fontSize=12;strokeColor=#000000;fillColor=#FFFFFF;fontStyle=1;" value="Nama use case" vertex="1">
                     <mxGeometry height="40" width="365" x="60" y="70" as="geometry"/>
