@@ -3,8 +3,8 @@ NAMA        : Naila Azzahra
 Kelas       : Informatika A
 Mata Kuliah : Prak. Analisis & Desain Ber. Objek
 KAKAS       : Draw.io
-Status Latihan PERTEMUAN PERTEMUAN 5
-SKENARIO USE CASE: DARI DIAGRAM KE LANGKAH KEGIATAN
+Status Latihan PERTEMUAN PERTEMUAN 6
+ACTIVITY DIAGRAM: DARI SKENARIO KE ALUR AKTIVITAS
 <<<<<<< HEAD
 Status Latihan Pertemuan 2 Unified Modeling Language (UML)
 =======
