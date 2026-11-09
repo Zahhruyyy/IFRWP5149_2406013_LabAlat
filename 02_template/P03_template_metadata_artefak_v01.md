@@ -1,11 +1,11 @@
-ID artefak        : LAB-P02-UC
-Judul             : USE CASE DIAGRAM LANJUTAN: GENERALIZATION DAN COLLABORATION
-Pertemuan         : 04
+ID artefak        : LAB-P03-UC
+Judul             : Latihan Use Case
+Pertemuan         : 03
 Sumber kebutuhan  : LAB-R01; LAB-R02
-Jenis/status      : Use case diagram / LATIHAN NOTASI
-Kakas             : Laptop, draw.io, Vscode
-Pembuat           : Naila Azzahra
-Versi dan tanggal : v01 / 10/19/2026
+Jenis/status      : Use case diagram / LATIHAN USE CASE
+Kakas             : draw.io
+Pembuat           : 2406013 Naila Azzahra
+Versi dan tanggal : v01 / 12 Oktober 2026
 Asumsi            : Hak akses sesuai; autentikasi di luar latihan
 Pemeriksaan       : [hasil review]
 Riwayat revisi    : [perubahan yang benar-benar dilakukan]
